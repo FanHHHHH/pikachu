@@ -1,0 +1,19 @@
+{
+  "name": "pikachu",
+  "version": "1.0.0",
+  "description": "用css画一个皮卡丘",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "皮卡丘"
+  ],
+  "author": "Leo",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {}
+}

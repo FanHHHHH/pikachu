@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "用css画一个皮卡丘",
   "main": "index.html",
+  "homepage": "https://fanhhhhh.github.io/pikachu/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.html --no-cache",
-    "build": "parcel build ./src/index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /pikachu",
+    "predeploy": "parcel build ./src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [

@@ -1,13 +1,12 @@
 {
   "name": "pikachu",
   "version": "1.0.0",
-  "homepage": "https://FanHHHHH.github.io/pikachu-website/",
   "description": "用css画一个皮卡丘",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build ./src/index.html --no-minify --public-url ./ -d build"
   },
   "keywords": [
     "css",

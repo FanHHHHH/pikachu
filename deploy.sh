@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 npm run build &&
-cd dist &&
+cd build &&
 git init && 
 git add . &&
 git commit -m 'init' &&
